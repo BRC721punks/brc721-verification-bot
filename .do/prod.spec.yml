@@ -16,10 +16,10 @@ envs:
     value: ${pg.DATABASE_URL}
   - key: DISCORD_APP_ID
     scope: RUN_TIME
-    value: 
+    value: 1124118176125419591
   - key: DISCORD_TOKEN
     scope: RUN_TIME
-    value: 
+    value: MTEyNDExODE3NjEyNTQxOTU5MQ.G1cdXA.-x4DQBZyij8U5CxJeknWUswgWaU9y10icMQ8gQ
   - key: REDIS_PORT
     scope: RUN_TIME
     value: ${redis.PORT}
@@ -94,5 +94,5 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: d3vx-com/brc721-verification-bot
+      repo: BRC721punks/brc721-verification-bot
     source_dir: client
